@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modal</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="bg_header">
+            </div>
+            <h1 class="header_title">This is the header</h1>
+            <h6 class="header_subtitle">Scroll down to see the modal <a href="#modal_section"><i class="fa fa-arrow-down"></i></a></h6>
+           
+        </header>
+
+        <section class="modal_section" id="modal_section">
+
+            <div class="content">
+                <h1>This is the Modal</h1>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem in modi eligendi non asperiores explicabo, sunt vitae voluptas fugiat sequi dolore? Non possimus perspiciatis in animi? Soluta aliquam nobis necessitatibus minus! Veniam obcaecati et illum possimus officia similique ex minus.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus distinctio impedit amet dicta at nulla perferendis placeat earum! Nemo obcaecati deserunt eaque labore illo quisquam sapiente molestiae dolorum non nostrum!</p>
+            </div>
+            <button type="button" class="modal_button">Modal</button>
+            <!-- Modal button -->
+
+        </section>
+
+        <div class="modal_bg">
+            <div class="modal">
+                <span class="close_modal" title="Close"><i class="fas fa-times-circle"></i></span>
+                <h2>Subscribe</h2>
+                <form method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" required  id="name" placeholder="ex:Julie" value="">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com">
+                    <input type="submit" value="Subscribe">
+                </form>
+           
+            </div>
+        </div>
+
+        <footer>
+            <h1>Modal</h1>
+            <p>&copy; Modal 2021 - LLC</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
